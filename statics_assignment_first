@@ -1,0 +1,296 @@
+
+
+1. Explain the different types of data (qualitative and quantitative) and provide examples of each. Discuss nominal, ordinal, interval, and ratio scales.
+2. What are the measures of central tendency, and when should you use each? Discuss the mean, median, and mode with examples and situations where each is appropriate.
+3. Explain the concept of dispersion. How do variance and standard deviation measure the spread of data?
+4. What is a box plot, and what can it tell you about the distribution of data?
+5. Discuss the role of random sampling in making inferences about populations.
+6. Explain the concept of skewness and its types. How does skewness affect the interpretation of data? 7.
+7.  What is the interquartile range (IQR), and how is it used to detect outliers? 8.
+8.  Discuss the conditions under which the binomial distribution is used.
+9. Explain the properties of the normal distribution and the empirical rule (68-95-99.7 rule).
+10. Provide a real-life example of a Poisson process and calculate the probability for a specific event.
+11. Explain what a random variable is and differentiate between discrete and continuous random variables.
+12. Provide an example dataset, calculate both covariance and correlation, and interpret the results
+
+#1. Explain the different types of data (qualitative and quantitative) and provide examples of each. Discuss nominal, ordinal, interval, and ratio scales.
+
+data is defined as piece of code which contain meaningful , relevant and knowledgeable content,that can be stored / analyise / organise in a systematics manner
+
+          2 types of data
+[1]  Quantitative date  -> used to deal with numerical data  , basically used in measurable device
+
+  (a) Discrete data   -> which contain whole number
+                         eg -> i have 4 pen
+  (b) continous data  -> which contain real value
+                        eg -> i have pen , length of pen is 9.4cm
+
+
+
+[2]  Qualtitive data :-> are the data which contain  the  categorical data
+                        eg :-> gender male / female
+                        eg :-> Blood group -> A+ , B+ , C+
+
+(a)  Nominal data -> its categorical data having no ordering
+                    eg-> Address of particular person
+
+                    eg -> gender of person
+
+                    eg-> Blood  group
+
+
+[b] Ordinal data   -> are the data where the ordering of data can be seen
+                    eg ->Ranking
+
+                    eg-> Grade
+
+
+
+
+
+# 2. What are the measures of central tendency, and when should you use each? Discuss the mean, median, and mode with examples and situations where each is appropriate.
+
+
+central tendency is a mathematical concept , which is used  to find out typical and most common value
+1.  Mean
+2.  Median
+3.  Mode
+
+Mean -> mean is a mathematical concept used in numerical data , which is used to find out the average of data
+      like -> Total sum of all observation / no. of all observation
+      It is very usefull when the data is normally distributed
+
+      To anylise the data based on condinational statement , mean raise one of the important factor
+
+      eg ->  what is the average of student who scored morethan 30 marks out of 50 in sst
+
+
+It can be seen to replace the null value / repeated value   of numerical data  in data set , can be seeen in ML model
+
+
+  Median ->  Median is a mathematical concept used in numerical data  , which is used to find out the central / mid  value of data
+
+          for odd  -> n/2
+
+          for even -> n/2 + (n/2   + 1)
+
+It can be seen to replace the null value / repeated value   of numerical data  in data set , can  be seeen in ML model
+
+
+mode   --> Mode is a mathematical concept used to deal with categorical data , which is used to find out most frequent data
+
+It can be seen to replace the null value / repeated value   of categorical data  in data set , can be seeen in ML model
+
+
+
+
+
+
+# 3. Explain the concept of dispersion. How do variance and standard deviation measure the spread of data?
+
+
+Dispersion -> dispersion is the method , which tell how much data can be spread  or  I can say the variation present among the data set
+
+
+Variance -:>  it is mathematiocal concept , which refers to be square difference of mean
+
+   IT  tells  about    How far data is from  mean
+Greater the square value , more far data is from mean
+
+I can say the variation/un-sutiability  present among the data set
+
+By appling the variance , it can change the unit of dimension
+eg :-> due to square cm will be  cm^2
+
+
+
+standard_deviation :-:>
+                       It  mathematical  concept , which  is the square root of variance
+
+                       it used to get back the original unit of dimension
+
+
+
+They measure the spread :->
+
+
+Larger values: A larger variance or standard deviation indicates a wider spread of data, meaning the values are more scattered around the mean.
+
+Smaller values: A smaller variance or standard deviation indicates a narrower spread of data, meaning the values are more clustered around the mean.
+
+
+
+# 4. What is a box plot, and what can it tell you about the distribution of data?
+A box plot, also known as a box and whisker plot, is a graphical representation that summarizes a dataset.
+It provides a visual overview of the data's distribution, including its median, quartiles, and potential outliers.
+
+
+
+-- This box plot contain the two outlier Q3 and Q1 , where Q1-> lowerfence and Q3-> upperFence
+    these lowerfernce is the lowerlimit , where upperfence is the upperlimit , which tell the InterQuatile  range of particular dataser free from variation  or reflect the symmetricity
+    --  beyoud the lowerlimit and upperlimt , there may be presence of Outlier , which shoows the skewness
+
+--  middle vertical lime -> is the median of the dataset, contain the middle value
+
+conclusions: if value lies  between [lowerlimit , upperlimit]  ---       graph will be symmetricity
+
+
+# 5. Discuss the role of random sampling in making inferences about populations.
+random sampling is the stastics method , used to randomly select the data from the datset , where each data has equal oppourtinity to be get selected
+
+random sampling is very usefull for analysis ,used  to  deal with large no data  or popultaion , where we need not to make contact or survey each person ;
+we simply select randomly kth customer data and analyse it based on some conditional statement
+It not only save thge effort but also time and money
+
+
+
+eg:
+Selecting employees for a survey: A company wants to survey 85 employees out of its 850-person workforce to gauge employee satisfaction.
+Each employee has an equal chance of being selected for the survey
+
+
+
+Random sampling of population is like Inference sampling , where we randomly obtained the data and analysed it based on conditional statement
+eg :->  Area of wild animal , if wanna to protect the tiger , which are  vanishing from this planet  , we test the 1 tigerr instead of selecting all the tiiger and get data about
+
+good affect:
+protein
+vitanmin
+level of calories
+
+bad effect:
+disese
+and some absences material , which made the life of tiger to be shorter
+
+
+
+
+# 6. Explain the concept of skewness and its types. How does skewness affect the interpretation of data? 7.
+
+skewness is a stastical  concept , which telles how much data should be inclined to one side or another due to prsence of outlier
+It is a bell shaped , which tells about the symmetricity and asymmetricity
+
+having symmetric , both right skewed and left skewed data equally inclined  and total sjkewness is 0
+mean /mode/median will be allocate at the same point
+
+
+Left skewness :-> stastical concept that can be inclined to the left side
+mode>=median>=mean
+
+
+Right skewness :-> stastical concept that can be inclined to the right side
+mean >= median >= mode
+
+
+
+skewness ->0            No skewness
+skewness  -1 and 1     left and right skewness  or moderate skewness
+
+skewness  < -1 and skewness > 1       highly skewed
+
+
+
+
+# 7.  What is the interquartile range (IQR), and how is it used to detect outliers? 8.
+
+
+
+The interquartile range defines the difference between the third and the first quartile.
+Quartiles are the partitioned values that divide the whole series into 4 equal parts. So, there are 3 quartiles.
+First Quartile is denoted by Q1 known as the lower quartile, the second Quartile is denoted by Q2 and the third Quartile is denoted by Q3 known as the upper quartile.
+ Therefore, the interquartile range is equal to the upper quartile minus lower quartile
+
+
+Quartiles are the value that divide the list of data in to three quarter
+Q1->  lower_fence
+
+Q2 -> median
+
+
+Q3-> upper_fence
+
+
+The difference between the upper and lower quartile is known as the interquartile range. The formula for the interquartile range is given below
+
+Interquartile range = Upper Quartile – Lower Quartile = Q­3 – Q­1
+
+where Q1 is the first quartile and Q3 is the third quartile of the series.
+
+
+
+
+
+
+
+
+
+8.Discuss the conditions under which the binomial distribution is used.
+
+The binomial distribution is used to model probabilities when the following conditions are met: 
+
+Fixed number of trials: The number of trials in the experiment is fixed and cannot be changed. 
+
+Independent trials: Each trial is independent of the others, meaning the result of one trial does not affect the result of the next. 
+
+Fixed probability of success: The probability of success is the same for each trial. 
+
+Two mutually exclusive outcomes: There are only two possible outcomes for each trial, which are mutually exclusive, meaning the occurrence of one outcome implies the non-occurrence of the other.
+
+
+
+
+9. Explain the properties of the normal distribution and the empirical rule (68-95-99.7 rule).
+
+
+The normal distribution is a continuous probability distribution that is symmetrical around its mean. It is often called the bell curve because of its shape.
+
+The empirical rule, also known as the 68-95-99.7 rule, is a shorthand used to remember the percentage of values that lie within a band around the mean in a normal distribution with a width of two, four and six standard deviations, respectively.
+
+68% of the data falls within one standard deviation of the mean.
+
+95% of the data falls within two standard deviations of the mean.
+
+
+99.7% of the data falls within three standard deviations of the mean.
+
+
+
+The normal distribution is used in many different fields, including statistics, finance, and engineering. It is a powerful tool for understanding and modeling data.
+
+
+
+10. Provide a real-life example of a Poisson process and calculate the probability for a specific event.
+
+
+The number of customers arriving at a grocery store can be modeled by a Poisson process with intensity λ=10 customers per hour. 
+Find the probability that there are 2 customers between 10:00 and 10:20. 
+Find the probability that there are 3 customers between 10:00 and 10:20 and 7 customers between 10:20 and 11.
+
+
+
+A real-life example of a Poisson process is the number of customers arriving at a store in an hour.
+
+Let's say that the average number of customers arriving at a store in an hour is 10.
+
+
+
+
+
+
+11.11. Explain what a random variable is and differentiate between discrete and continuous random variables.
+
+
+
+
+A random variable is a variable whose value is a numerical outcome of a random phenomenon.
+
+Discrete random variable: A variable whose value can only take on a finite number of values or a countably infinite number of values.
+Example: The number of heads when the coin is flipped four times: Notice that we can get a maximum of four heads (the values would be 0, 1, 2, 3, and 4) and the number of values the variable can take is finite (only 5 values).
+Continuous random variable: A variable whose value can take on any value between two given values.
+
+
+
+Example: The height of a student. Assume that the height of the students in a college is between 1.50 meters and 1.85 meters. The variable can take any value between these limits.
+
+
+
